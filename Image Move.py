@@ -1,5 +1,5 @@
 import cv2
-img = cv2.imread("C:/Users/mohammed rafik m/OneDrive/Pictures\Saved Pictures/WhatsApp Image 2022-03-18 at 6.54.12 AM.jpeg")
+img = cv2.imread("C:/Users/Raja/OneDrive/Pictures\Saved Pictures/WhatsApp Image 2022-03-18 at 6.54.12 AM.jpeg")
 x, y = 100, 100
 dx, dy = 50, 50
 def move_image():
