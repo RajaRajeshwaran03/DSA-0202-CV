@@ -6,7 +6,7 @@ import numpy as np
 kernel = np.ones((5,5),np.uint8)
 print(kernel)
 
-path = "C:/Users/mohammed rafik m/OneDrive/Pictures/IMG_20180215_224619.jpg"
+path = "C:/Users/Raja/OneDrive/Pictures/IMG_20180215_224619.jpg"
 img =  cv2.imread(path)
 imgGray = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
 imgBlur = cv2.GaussianBlur(imgGray,(7,7),0)
