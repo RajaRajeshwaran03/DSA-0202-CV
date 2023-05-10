@@ -1,6 +1,6 @@
 import cv2
 
-img = cv2.imread("C:/Users/mohammed rafik m/OneDrive/Pictures\Saved Pictures/WhatsApp Image 2022-03-18 at 6.54.12 AM.jpeg")
+img = cv2.imread("C:/Users/Raja/OneDrive/Pictures\Saved Pictures/WhatsApp Image 2022-03-18 at 6.54.12 AM.jpeg")
 height, width = img.shape[:2]
 
 scale_factor = 1.5
