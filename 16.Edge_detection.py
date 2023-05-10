@@ -1,7 +1,7 @@
 import cv2
 
 # Load the image
-img = cv2.imread('C:/Users/mohammed rafik m/OneDrive/Documents/computer vision/WhatsApp Image 2022-03-18 at 6.54.12 AM.jpeg', 0)
+img = cv2.imread('C:/Users/Raja/OneDrive/Documents/computer vision/WhatsApp Image 2022-03-18 at 6.54.12 AM.jpeg', 0)
 
 # Apply Canny edge detection
 edges = cv2.Canny(img, 100, 200)
